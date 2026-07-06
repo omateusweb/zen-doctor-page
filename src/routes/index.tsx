@@ -30,7 +30,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
         {/* Assinatura próxima ao ombro */}
-        <div className="hidden md:block absolute z-10 top-[46%] right-[26%] text-primary-foreground/90 text-right">
+        <div className="hidden md:block absolute z-10 top-[62%] right-[32%] text-primary-foreground/90 text-right">
           <p className="font-serif text-sm tracking-wide leading-tight">Dra. Calina Lima</p>
           <p className="text-[10px] uppercase tracking-[0.28em] text-primary-foreground/70 mt-1">
             Anestesiologista
