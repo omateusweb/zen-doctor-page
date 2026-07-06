@@ -26,15 +26,15 @@ function Index() {
         <img
           src={doctorHero.url}
           alt="Dra. Nome Sobrenome"
-          className="absolute inset-0 h-full w-full object-cover object-center grayscale"
+          className="absolute inset-0 h-full w-full object-cover object-center grayscale scale-x-[-1]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/30 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
         <div className="relative z-10 flex min-h-screen items-center px-6 md:px-12 lg:px-24">
           <div className="max-w-2xl text-primary-foreground">
             <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-8">
-              Preparação Cirúrgica Exclusiva
+              Protocolo CORE
             </p>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-light">
               Seja o melhor paciente antes de escolher o melhor cirurgião.
