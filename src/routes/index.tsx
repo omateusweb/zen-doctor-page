@@ -13,7 +13,7 @@ function Index() {
         <div />
         <a
           href="#agendar"
-          className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-primary-foreground/90 hover:text-primary-foreground transition-colors border-b border-primary-foreground/40 pb-1"
+          className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-foreground/80 hover:text-foreground transition-colors border-b border-foreground/40 pb-1"
         >
           Agendar Consulta
         </a>
