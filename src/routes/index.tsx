@@ -57,61 +57,6 @@ function Index() {
         </div>
       </section>
 
-      {/* METODOLOGIA */}
-      <section className="px-6 md:px-12 lg:px-24 py-24 md:py-40 bg-background">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-12 gap-12 md:gap-16 items-start">
-            <div className="md:col-span-4">
-              <p className="text-[11px] uppercase tracking-[0.32em] text-muted-foreground mb-6">
-                Metodologia
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.1] text-foreground">
-                Um cuidado que começa antes da sala de cirurgia.
-              </h2>
-            </div>
-
-            <div className="md:col-span-8 md:pl-12 md:border-l md:border-border">
-              <p className="text-base md:text-lg text-muted-foreground leading-relaxed font-light">
-                Cada corpo responde de forma única a um procedimento cirúrgico.
-                Por isso, desenvolvi um protocolo exclusivo de preparação e
-                acompanhamento que transforma a experiência cirúrgica em um
-                processo seguro, previsível e humano.
-              </p>
-
-              <div className="mt-16 grid sm:grid-cols-3 gap-10">
-                {[
-                  {
-                    n: "01",
-                    t: "Avaliação Pré-Operatória",
-                    d: "Análise clínica aprofundada, exames e planejamento individual para preparar corpo e mente.",
-                  },
-                  {
-                    n: "02",
-                    t: "Preparação Personalizada",
-                    d: "Protocolo nutricional, físico e emocional desenhado para otimizar sua resposta cirúrgica.",
-                  },
-                  {
-                    n: "03",
-                    t: "Acompanhamento Pós",
-                    d: "Presença próxima e contínua na recuperação, com condutas ajustadas em cada etapa.",
-                  },
-                ].map((s) => (
-                  <div key={s.n}>
-                    <p className="font-serif text-2xl text-foreground mb-4">{s.n}</p>
-                    <h3 className="text-sm uppercase tracking-[0.18em] text-foreground mb-3 font-sans font-medium">
-                      {s.t}
-                    </h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed font-light">
-                      {s.d}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* SOBRE */}
       <section className="bg-primary text-primary-foreground px-6 md:px-12 lg:px-24 py-24 md:py-40">
         <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-12 md:gap-20 items-center">
