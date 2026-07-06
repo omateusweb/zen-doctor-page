@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import doctorHero from "@/assets/doctor-hero.jpg.asset.json";
 import doctorAbout from "@/assets/doctor-about.jpg.asset.json";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -58,8 +59,8 @@ function Index() {
       </section>
 
       {/* SOBRE */}
-      <section className="bg-primary text-primary-foreground px-6 md:px-12 lg:px-24 py-24 md:py-40">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-12 md:gap-20 items-center">
+      <AuroraBackground className="dark bg-primary text-primary-foreground px-6 md:px-12 lg:px-24 py-24 md:py-40 min-h-0 justify-start items-stretch">
+        <div className="relative z-10 w-full max-w-6xl mx-auto grid md:grid-cols-12 gap-12 md:gap-20 items-center">
           <div className="md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
@@ -103,7 +104,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </AuroraBackground>
 
       <footer className="bg-primary text-primary-foreground/60 border-t border-primary-foreground/10 px-6 md:px-12 lg:px-24 py-10 text-xs tracking-[0.16em] uppercase flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <span>© {new Date().getFullYear()} Dra. Nome Sobrenome</span>
