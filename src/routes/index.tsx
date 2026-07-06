@@ -26,18 +26,28 @@ function Index() {
         {/* Scrim para legibilidade da headline centralizada */}
         <div className="absolute inset-0 bg-black/40" />
 
+        {/* Assinatura ao lado esquerdo da cabeça */}
+        <div className="hidden md:block absolute z-10 left-6 md:left-12 top-1/2 -translate-y-1/2 text-left">
+          <p className="font-serif text-base text-primary-foreground tracking-wide leading-tight">
+            Dra. Calina Lima
+          </p>
+          <p className="text-[10px] uppercase tracking-[0.28em] text-primary-foreground/70 mt-1">
+            Anestesiologista
+          </p>
+        </div>
+
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center px-6 md:px-12 pb-6 md:pb-8">
-          <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-6">
+          <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-4">
             Protocolo CORE
           </p>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-light text-primary-foreground max-w-4xl mix-blend-difference">
             Seja o melhor paciente antes de escolher o melhor cirurgião.
           </h1>
-          <p className="mt-6 max-w-xl text-base md:text-lg text-primary-foreground/80 leading-relaxed font-light">
+          <p className="mt-4 max-w-xl text-base md:text-lg text-primary-foreground/80 leading-relaxed font-light">
             Sua recuperação bem-sucedida e pós-operatório mais rápido, requer
             preparação e acompanhamento exclusivo.
           </p>
-          <div className="mt-8">
+          <div className="mt-6">
             <a
               href="#agendar"
               className="inline-flex items-center gap-4 bg-primary-foreground text-primary px-8 py-4 text-[11px] uppercase tracking-[0.28em] hover:bg-primary-foreground/90 transition-colors"
@@ -45,14 +55,6 @@ function Index() {
               Agendar Consulta
               <span aria-hidden="true">→</span>
             </a>
-          </div>
-          <div className="mt-10">
-            <p className="font-serif text-base text-primary-foreground tracking-wide leading-tight">
-              Dra. Calina Lima
-            </p>
-            <p className="text-[10px] uppercase tracking-[0.28em] text-primary-foreground/70 mt-1">
-              Anestesiologista
-            </p>
           </div>
         </div>
       </section>
