@@ -13,51 +13,54 @@ function Index() {
         <div />
         <a
           href="#agendar"
-          className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-primary-foreground/90 hover:text-primary-foreground transition-colors border-b border-primary-foreground/40 pb-1"
+          className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-foreground/80 hover:text-foreground transition-colors border-b border-foreground/40 pb-1"
         >
           Agendar Consulta
         </a>
       </header>
 
       {/* HERO */}
-      <section className="relative min-h-screen w-full overflow-hidden">
-        <img
-          src={doctorHero.url}
-          alt="Dra. Nome Sobrenome"
-          className="absolute inset-0 h-full w-full object-cover object-center grayscale scale-x-[-1]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/30 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
-
-        {/* Assinatura próxima ao ombro */}
-        <div className="hidden md:block absolute z-10 top-[62%] right-[32%] text-primary-foreground/90 text-right">
-          <p className="font-serif text-sm tracking-wide leading-tight">Dra. Calina Lima</p>
-          <p className="text-[10px] uppercase tracking-[0.28em] text-primary-foreground/70 mt-1">
-            Anestesiologista
+      <section className="relative min-h-screen w-full overflow-hidden bg-background flex items-center justify-center pt-24 pb-16 px-6">
+        <div className="relative w-full max-w-3xl mx-auto flex flex-col items-center text-center">
+          <p className="text-[11px] uppercase tracking-[0.32em] text-muted-foreground mb-6">
+            Protocolo CORE
           </p>
-        </div>
 
-        <div className="relative z-10 flex min-h-screen items-center px-6 md:px-12 lg:px-24">
-          <div className="max-w-2xl text-primary-foreground">
-            <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-8">
-              Protocolo CORE
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-light text-foreground max-w-3xl">
+            Seja o melhor paciente antes de escolher o melhor cirurgião.
+          </h1>
+
+          {/* Foto central */}
+          <div className="relative my-10 md:my-12 w-[240px] sm:w-[280px] md:w-[320px] aspect-[3/4] overflow-hidden">
+            <img
+              src={doctorHero.url}
+              alt="Dra. Calina Lima"
+              className="absolute inset-0 h-full w-full object-cover grayscale"
+            />
+          </div>
+
+          <div>
+            <p className="font-serif text-lg text-foreground tracking-wide leading-tight">
+              Dra. Calina Lima
             </p>
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-light">
-              Seja o melhor paciente antes de escolher o melhor cirurgião.
-            </h1>
-            <p className="mt-8 text-base md:text-lg text-primary-foreground/80 leading-relaxed max-w-xl font-light">
-              Sua recuperação bem-sucedida e pós-operatório mais rápido, requer
-              preparação e acompanhamento exclusivo.
+            <p className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground mt-1">
+              Anestesiologista
             </p>
-            <div className="mt-12">
-              <a
-                href="#agendar"
-                className="inline-flex items-center gap-4 bg-primary-foreground text-primary px-8 py-4 text-[11px] uppercase tracking-[0.28em] hover:bg-primary-foreground/90 transition-colors"
-              >
-                Agendar Consulta
-                <span aria-hidden="true">→</span>
-              </a>
-            </div>
+          </div>
+
+          <p className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed font-light">
+            Sua recuperação bem-sucedida e pós-operatório mais rápido, requer
+            preparação e acompanhamento exclusivo.
+          </p>
+
+          <div className="mt-10">
+            <a
+              href="#agendar"
+              className="inline-flex items-center gap-4 bg-primary text-primary-foreground px-8 py-4 text-[11px] uppercase tracking-[0.28em] hover:bg-primary/90 transition-colors"
+            >
+              Agendar Consulta
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
       </section>
