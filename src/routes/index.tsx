@@ -30,8 +30,8 @@ function Index() {
             Seja o melhor paciente antes de escolher o melhor cirurgião.
           </h1>
 
-          {/* Foto central */}
-          <div className="relative my-10 md:my-12 w-[240px] sm:w-[280px] md:w-[320px] aspect-[3/4] overflow-hidden">
+          {/* Foto central grande */}
+          <div className="relative my-10 md:my-14 w-[320px] sm:w-[460px] md:w-[600px] lg:w-[720px] aspect-[3/4] overflow-hidden">
             <img
               src={doctorHero.url}
               alt="Dra. Calina Lima"
