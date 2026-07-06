@@ -24,8 +24,7 @@ function Index() {
         <img
           src={doctorHero.url}
           alt="Dra. Calina Lima"
-          className="absolute top-0 h-full w-[150%] left-[-25%] object-cover grayscale"
-          style={{ objectPosition: "center" }}
+          className="absolute top-0 h-full w-[130%] left-[10%] md:left-[13%] object-cover grayscale"
         />
         {/* Scrim para legibilidade da headline centralizada */}
         <div className="absolute inset-0 bg-black/40" />
