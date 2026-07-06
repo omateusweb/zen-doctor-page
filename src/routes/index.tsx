@@ -26,8 +26,8 @@ function Index() {
         {/* Scrim para legibilidade da headline centralizada */}
         <div className="absolute inset-0 bg-black/40" />
 
-        {/* Assinatura ao lado esquerdo da cabeça */}
-        <div className="hidden md:block absolute z-10 left-6 md:left-12 top-1/2 -translate-y-1/2 text-left">
+        {/* Assinatura no canto superior esquerdo, ao lado da cabeça */}
+        <div className="absolute z-10 left-[6%] md:left-[18%] top-[18%] text-left">
           <p className="font-serif text-base text-primary-foreground tracking-wide leading-tight">
             Dra. Calina Lima
           </p>
