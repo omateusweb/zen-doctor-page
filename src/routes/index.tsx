@@ -11,12 +11,7 @@ function Index() {
       {/* NAV */}
       <header className="absolute top-0 left-0 right-0 z-20 px-6 md:px-12 py-6 flex items-center justify-between">
         <div />
-        <a
-          href="#agendar"
-          className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-primary-foreground/90 hover:text-primary-foreground transition-colors border-b border-primary-foreground/40 pb-1"
-        >
-          Agendar Consulta
-        </a>
+        <div />
       </header>
 
       {/* HERO */}
