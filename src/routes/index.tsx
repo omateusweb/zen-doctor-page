@@ -21,22 +21,26 @@ function Index() {
 
       {/* HERO */}
       <section className="relative min-h-screen w-full overflow-hidden bg-background flex items-center justify-center pt-24 pb-16 px-6">
-        <div className="relative w-full max-w-3xl mx-auto flex flex-col items-center text-center">
+        <div className="relative w-full max-w-5xl mx-auto flex flex-col items-center text-center">
           <p className="text-[11px] uppercase tracking-[0.32em] text-muted-foreground mb-6">
             Protocolo CORE
           </p>
 
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-light text-foreground max-w-3xl">
-            Seja o melhor paciente antes de escolher o melhor cirurgião.
-          </h1>
-
-          {/* Foto central grande */}
-          <div className="relative my-10 md:my-14 w-[320px] sm:w-[460px] md:w-[600px] lg:w-[720px] aspect-[3/4] overflow-hidden">
+          {/* Foto central grande com headline sobreposta */}
+          <div className="relative my-6 md:my-8 w-[320px] sm:w-[460px] md:w-[600px] lg:w-[720px] aspect-[3/4] overflow-hidden">
             <img
               src={doctorHero.url}
               alt="Dra. Calina Lima"
               className="absolute inset-0 h-full w-full object-cover grayscale"
             />
+            {/* Scrim para legibilidade da headline */}
+            <div className="absolute inset-0 bg-black/35" />
+
+            <h1 className="absolute inset-0 flex items-center justify-center px-6 font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-light text-primary-foreground">
+              <span className="max-w-3xl">
+                Seja o melhor paciente antes de escolher o melhor cirurgião.
+              </span>
+            </h1>
           </div>
 
           <div>
