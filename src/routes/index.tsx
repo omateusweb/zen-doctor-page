@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import doctorHero from "@/assets/doctor-hero.jpg.asset.json";
+import doctorAbout from "@/assets/doctor-about.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -117,7 +118,7 @@ function Index() {
           <div className="md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src={doctorHero.url}
+                src={doctorAbout.url}
                 alt="Retrato da Dra. Nome Sobrenome"
                 className="h-full w-full object-cover grayscale"
               />
