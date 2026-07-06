@@ -27,7 +27,7 @@ function Index() {
           className="absolute top-0 h-full w-[130%] left-[10%] md:left-[13%] object-cover grayscale"
         />
         {/* Scrim para legibilidade da headline centralizada */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/30" />
+        <div className="absolute inset-0 bg-black/40" />
 
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center px-6 md:px-12 pb-6 md:pb-8">
           <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-8">
