@@ -29,7 +29,7 @@ function Index() {
         {/* Scrim para legibilidade da headline centralizada */}
         <div className="absolute inset-0 bg-black/40" />
 
-        <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center px-6 md:px-12 pb-16 md:pb-20">
+        <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center px-6 md:px-12 pb-6 md:pb-8">
           <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-8">
             Protocolo CORE
           </p>
