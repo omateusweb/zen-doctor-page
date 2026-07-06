@@ -10,9 +10,7 @@ function Index() {
     <main className="min-h-screen bg-background text-foreground">
       {/* NAV */}
       <header className="absolute top-0 left-0 right-0 z-20 px-6 md:px-12 py-6 flex items-center justify-between">
-        <div className="text-primary-foreground font-serif text-xl md:text-2xl tracking-wide">
-          Dra. Nome Sobrenome
-        </div>
+        <div />
         <a
           href="#agendar"
           className="hidden md:inline-block text-[11px] uppercase tracking-[0.24em] text-primary-foreground/90 hover:text-primary-foreground transition-colors border-b border-primary-foreground/40 pb-1"
@@ -30,6 +28,14 @@ function Index() {
         />
         <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/30 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
+
+        {/* Assinatura próxima ao ombro */}
+        <div className="hidden md:block absolute z-10 top-[62%] right-[32%] text-primary-foreground/90 text-right">
+          <p className="font-serif text-sm tracking-wide leading-tight">Dra. Calina Lima</p>
+          <p className="text-[10px] uppercase tracking-[0.28em] text-primary-foreground/70 mt-1">
+            Anestesiologista
+          </p>
+        </div>
 
         <div className="relative z-10 flex min-h-screen items-center px-6 md:px-12 lg:px-24">
           <div className="max-w-2xl text-primary-foreground">
