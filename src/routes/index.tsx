@@ -37,9 +37,6 @@ function Index() {
         </div>
 
         <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center px-6 md:px-12 pb-6 md:pb-8">
-          <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/70 mb-4">
-            Protocolo CORE
-          </p>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-light text-primary-foreground max-w-4xl mix-blend-difference">
             Seja o melhor paciente antes de escolher o melhor cirurgião.
           </h1>
