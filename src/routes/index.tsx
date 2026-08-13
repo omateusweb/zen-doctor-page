@@ -131,7 +131,7 @@ function Index() {
               QUEM É DRA. CALINA LIMA
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.15] font-light">
-              Uma médica dedicada à sua jornada — não apenas à sua cirurgia.
+              Uma médica dedicada à sua jornada, não apenas à sua cirurgia.
             </h2>
             <div className="mt-10 space-y-6 text-primary-foreground/75 text-base md:text-lg leading-relaxed font-light max-w-xl">
               <p>
