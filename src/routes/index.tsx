@@ -128,7 +128,7 @@ function Index() {
 
           <div className="md:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.32em] text-primary-foreground/60 mb-6">
-              Quem é a Doutora
+              QUEM É DRA. CALINA LIMA
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.15] font-light">
               Uma médica dedicada à sua jornada — não apenas à sua cirurgia.
