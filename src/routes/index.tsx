@@ -48,7 +48,9 @@ function Index() {
           </p>
           <div className="mt-6">
             <a
-              href="#agendar"
+              href="https://wa.me/5581981404133?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dra.%20Calina"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-4 bg-primary-foreground text-primary px-8 py-4 text-[11px] uppercase tracking-[0.28em] hover:bg-primary-foreground/90 transition-colors"
             >
               Agendar Consulta
@@ -150,7 +152,9 @@ function Index() {
 
             <div id="agendar" className="mt-12">
               <a
-                href="#"
+                href="https://wa.me/5581981404133?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dra.%20Calina"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-4 border border-primary-foreground/60 text-primary-foreground px-8 py-4 text-[11px] uppercase tracking-[0.28em] hover:bg-primary-foreground hover:text-primary transition-colors"
               >
                 Agendar Consulta
