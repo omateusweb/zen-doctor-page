@@ -165,9 +165,6 @@ function Index() {
         </div>
       </section>
 
-      <footer className="bg-primary text-primary-foreground/60 border-t border-primary-foreground/10 px-6 md:px-12 lg:px-24 py-10 text-xs tracking-[0.16em] uppercase flex flex-col md:flex-row md:items-center md:justify-end gap-4">
-        <span>CRM 000000 · Medicina</span>
-      </footer>
     </main>
   );
 }
