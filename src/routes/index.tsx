@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import doctorHero from "@/assets/doctor-hero.jpg.asset.json";
-import doctorAbout from "@/assets/doctor-about.jpg.asset.json";
+import heroDesktop from "@/assets/hero-desktop.png";
+import heroMobile from "@/assets/hero-mobile.png";
+import doctorAbout from "@/assets/doctor-about.jpg";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 
 export const Route = createFileRoute("/")({
@@ -18,13 +19,16 @@ function Index() {
 
       {/* HERO */}
       <section className="relative min-h-screen w-full overflow-hidden">
-        <img
-          src={doctorHero.url}
-          alt="Dra. Calina Lima"
-          className="absolute top-0 h-full w-[110%] left-[15%] object-cover grayscale"
-          loading="eager"
-          fetchPriority="high"
-        />
+        <picture>
+          <source media="(min-width: 768px)" srcSet={heroDesktop} />
+          <img
+            src={heroMobile}
+            alt="Dra. Calina Lima"
+            className="absolute inset-0 h-full w-full object-cover grayscale"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
         {/* Scrim para legibilidade da headline centralizada */}
         <div className="absolute inset-0 bg-black/40" />
 
@@ -121,7 +125,7 @@ function Index() {
           <div className="md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src={doctorAbout.url}
+                src={doctorAbout}
                 alt="Retrato da Dra. Nome Sobrenome"
                 className="h-full w-full object-cover grayscale"
               />
